@@ -1,0 +1,19 @@
+{ 
+  "name": "monitor", 
+  "version": "0.1",
+  "description": "Hashgo's central logging utility", 
+  "keywords": ["logging"], 
+  "homepage": "https://github.com/HashGo/monitor", 
+  "author": "Hans Gill", 
+  "repository": { 
+    "type": "git", 
+    "url": "git@github.com:HashGo/monitor.git"
+  }, 
+  "dependencies": { 
+    "winston": "*", 
+    "node-statsd": "*",
+    "dgram": "*"
+  }, 
+  "engines": {"node":">=0.4.0 < 0.7.0"}, 
+  "main": "./lib/monitor"
+}
