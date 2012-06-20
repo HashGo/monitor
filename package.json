@@ -1,6 +1,6 @@
 { 
   "name": "monitor", 
-  "version": "0.1.5",
+  "version": "0.1.9",
   "description": "Hashgo's central logging utility", 
   "keywords": ["logging"], 
   "homepage": "https://github.com/HashGo/monitor", 
@@ -12,8 +12,13 @@
   "dependencies": { 
     "winston": "*", 
     "winston-graylog2": "*",
-    "node-statsd": "*"
+    "node-statsd": "*",
+    "datadog": "git+ssh://git@github.com:HashGo/node-datadog.git"
   }, 
+  "devDependencies": {
+    "should": "*",
+    "mocha": "*"
+  },
   "engines": {"node":">=0.4.0 < 0.7.0"}, 
   "main": "./lib/monitor"
 }
