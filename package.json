@@ -1,6 +1,6 @@
 { 
   "name": "monitor", 
-  "version": "0.1.10",
+  "version": "0.1.11",
   "description": "Hashgo's central logging utility", 
   "keywords": ["logging"], 
   "homepage": "https://github.com/HashGo/monitor", 
